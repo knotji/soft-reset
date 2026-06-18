@@ -9,7 +9,12 @@ const sarabun = Sarabun({
   display: "swap",
 });
 
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL
+  ? new URL(process.env.NEXT_PUBLIC_BASE_URL)
+  : new URL("http://localhost:3000");
+
 export const metadata: Metadata = {
+  metadataBase: baseUrl,
   title: "Soft Reset — รีเซ็ตใจเบา ๆ",
   description:
     "เลือกความรู้สึกสั้น ๆ แล้วให้ Soft Reset เขียนข้อความเล็ก ๆ ไว้กอดใจคุณวันนี้",
