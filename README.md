@@ -41,7 +41,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 - **TypeScript**
 - **Tailwind CSS v4**
 - **Framer Motion** — page transitions and micro-animations
-- **@google/genai** — Gemini 2.0 Flash API (server-side only)
+- **@google/genai** — Gemini 2.5 Flash API (server-side only)
 - **html-to-image** — save card as PNG
 
 ## Features

@@ -13,6 +13,19 @@ export const metadata: Metadata = {
   title: "Soft Reset — รีเซ็ตใจเบา ๆ",
   description:
     "เลือกความรู้สึกสั้น ๆ แล้วให้ Soft Reset เขียนข้อความเล็ก ๆ ไว้กอดใจคุณวันนี้",
+  openGraph: {
+    title: "Soft Reset — รีเซ็ตใจเบา ๆ",
+    description:
+      "เลือกความรู้สึกสั้น ๆ แล้วให้ Soft Reset เขียนข้อความเล็ก ๆ ไว้กอดใจคุณวันนี้",
+    type: "website",
+    locale: "th_TH",
+  },
+  twitter: {
+    card: "summary",
+    title: "Soft Reset — รีเซ็ตใจเบา ๆ",
+    description:
+      "เลือกความรู้สึกสั้น ๆ แล้วให้ Soft Reset เขียนข้อความเล็ก ๆ ไว้กอดใจคุณวันนี้",
+  },
 };
 
 export default function RootLayout({
